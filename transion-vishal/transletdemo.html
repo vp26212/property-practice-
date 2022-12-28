@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            height: 200px;
+            width: 200px;
+            background-color: red;
+            margin: 10px auto;
+            transition: 1s all ease;
+        }
+        .div-1:hover{
+            transform: translateX(50px);
+            background-color: yellows;
+        }
+        .div-2:hover{
+            transform: translateY(60px);
+            background-color: yellow;
+        }
+        .div-3:hover{
+            transform: translate(-20px, 60px);
+            background-color: blue;
+        }
+        .div-4:hover{
+            transform: translateX(20px) translateY(40px) scale(0.5);
+            /* transform: perspective(5px); */
+        }
+    </style>
+</head>
+<body>
+    <div class="div-1">1</div>
+    <div class="div-2">2</div>
+    <div class="div-3">3</div>
+    <div class="div-4">4</div>
+</body>
+</html>
